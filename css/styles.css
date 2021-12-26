@@ -475,6 +475,9 @@ p {
   fill: currentColor;
 }
 .send-container {
+  margin-left: 93px;
+}
+.footer-send {
   display: inline-flex;
 }
 .button-send {
@@ -501,19 +504,19 @@ p {
   margin-left: 10px;
 }
 .button-send:focus,
-.button-send:hover{
+.button-send:hover {
   background-color: #188ce8;
 }
 .input-send {
- width: 358px;
- padding: 15px 16px;
- border: 1px solid rgba(255, 255, 255, 0.3);
- box-sizing: border-box;
- filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
- border-radius: 4px;
- background: inherit;
- outline: none;
- color: var(--title-color); 
+  width: 358px;
+  padding: 15px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background: inherit;
+  outline: none;
+  color: var(--title-color);
 }
 /* Портфолио */
 .project-button,
